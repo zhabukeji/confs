@@ -1,0 +1,13 @@
+# gip 设置
+gzip            on;
+# 设置申请内存大小
+gzip_buffers	4 16K;
+# 最小压缩文件大小
+gzip_min_lenght 20K;
+# 压缩等级 等级越高 占用CPU越高 文件越小
+gzip_comp_level 3;
+# 压缩文件类型 没必要对图片进行压缩
+gzip_types      application/javascript;
+# gzip文件标识
+gzip_vary  	on;
+
